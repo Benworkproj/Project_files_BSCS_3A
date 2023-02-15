@@ -1,0 +1,75 @@
+form {
+    padding: 10px;
+    height: 1250px; 
+  }
+.column {
+    float: left;
+    padding: 10px;
+    height: 600px; 
+  }
+  .left {
+  font-family: "Century Gothic";
+  }
+  .right1{
+    margin-left: 480px;
+    width: 10px;
+    height: 5px;
+  }
+  
+  h3{
+    font-size: 15px;
+    color: white;
+  }
+  h2{
+    color: black;
+  }
+  .box { /*browse*/
+    background: rgba(0, 0, 0, 0.45); 
+    height: 250px;
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 0.00px;  
+  }
+  .button1 {
+    background-color:  #6B3E2E;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+
+  }
+  .button2 {
+    background-color:  #6B3E2E;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .buttonside{
+    margin-left: 100px;
+    width: 10px;
+    height: 5px;
+  }
+  
+  .regular{
+    margin-left: 780px;
+    width: 10px;
+    height: 5px;
+  width: 450px;
+  border-color: #C0C0C0; 
+  border-width: 1px;
+  }
+  .field{
+  width: 400px; 
+  border-color: #C0C0C0; 
+  border-width: 1px;
+  margin-left: 250px;
+  }
+  

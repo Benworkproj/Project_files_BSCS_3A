@@ -1,0 +1,126 @@
+form {
+    padding: 10px;
+    height: 1250px; 
+  }
+.column {
+    float: left;
+    padding: 10px;
+    height: 600px; 
+  }
+  .left {
+  font-family: "Century Gothic";
+  }
+  .right1{
+    margin-left: 90px;
+    width: 10px;
+    height: 5px;
+  }
+  
+  h3{
+    font-size: 15px;
+    color: white;
+  }
+  h2{
+    color: black;
+  }
+  .box { /*browse*/
+    background: rgba(0, 0, 0, 0.45); 
+    height: 250px;
+    width: 200px;
+    margin-left: 930px;
+    margin-top: -20px;
+    border-radius: 10px;  
+  }
+  .button1 {
+    background-color:  #4f0071;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+
+  }
+  .button2 {
+    background-color:  #6B3E2E;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .buttonside{
+    margin-left: 100px;
+    width: 10px;
+    height: 5px;
+  }
+  
+  .regular{
+    margin-left: 780px;
+    width: 10px;
+    height: 5px;
+  width: 450px;
+  border-color: #C0C0C0; 
+  border-width: 1px;
+  }
+  .field{
+  width: 400px; 
+  border-color: #C0C0C0; 
+  border-width: 1px;
+  margin-left: 90px;
+  border-radius: 10px;
+  }
+header
+{
+    background-color: #fff;
+    padding: 8px;
+    box-shadow: 0 0 3px #000;
+}
+header li
+{
+  display: inline;
+  padding-left: 25px;
+}
+header li a 
+{
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  transition: .3s ease;
+}
+header li a:hover
+{
+  color:royalblue;
+}
+header ul #contact a
+{
+  color: #fff;
+  background-color: orange;
+  border-radius: 30px;
+  float: right;
+  position: relative;
+  top: -10px; 
+}
+header ul #contact a:hover
+{
+  background-color: goldenrod;
+}
+
+header li img
+{
+  width: 180px;
+  float: left;
+  margin-top: -25px;
+}
+.active
+{
+  color: royalblue;
+}
+</style>
+  

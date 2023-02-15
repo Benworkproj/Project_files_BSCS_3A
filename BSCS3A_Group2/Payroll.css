@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    scroll-padding-top: smooth;
+    list-style: none;
+    text-decoration: none;
+   
+}
+
+:root{
+    --main-color: 	#0b421a;
+    --text-color: #171427;
+    
+}
+img {
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89),rgba(0,0,0,0.5)),  url(bg.jpg);
+    height: 100vh;
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 1px 4px hsl(0 4% 15%/ 10%);
+    z-index: 100;
+} 
+.nav h2{
+    position: absolute;
+    color: wheat;
+    top: 18px;
+    left: 630px;
+}
+.nav{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89),rgba(0,0,0,0.5)),  url(bg.jpg);
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo{
+    margin-left: 12%;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 400;
+    
+}
+.nav img{
+    position: absolute;
+    left: 7.5%;
+    top: 11%;
+    background: transparent;
+    width: 60px;
+    white-space: nowrap;}
+.dropbtn {
+    background-color: #eac784;
+    color: BLACK;
+    padding: 11px;
+    font-size: 16px;
+    border: none;
+}
+.active{
+    background-color: #eac784;
+
+    white-space: nowrap;            
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  left: 85%;
+  margin-top: -5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #eac784;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89),rgba(0,0,0,0.5)),  url(bg.jpg);
+color: white;
+} 
+.section-title{
+    position: relative;
+    top: 75px;
+    text-align: center;
+    color: white;
+} 
+.split {
+    height: 100%;
+    margin: auto;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 50px; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89),rgba(0,0,0,0.5)),  url(bg.jpg);
+    overflow-x: hidden;
+    
+  }
+  
+  .left {
+    
+    left:0;
+  }
+  
+  .right {
+    right: 0;
+    
+  }
+.info{
+    padding-bottom:60px ;
+    font-size: 25px;
+}
+.info h2{
+    position: relative;
+    text-align: center;
+    top: 35px;
+    color: wheat;
+}
+.info form{
+    margin-top: 50px;
+    position: relative;
+    color: wheat;
+    margin-left: 50px;
+}
+.submit{    
+    gap:1.5rem;
+    display: inline-block;
+    position: relative;
+    right: 20px;
+    margin-bottom: 15px;
+    top: 50px;
+    width:30%;
+    height: 50px;
+    border: 1px solid;
+    background: #eac784;
+    border-radius: 25px;
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    cursor: pointer;
+    outline: none;
+
+}
+.close{
+    right: -190px;
+}
+.buttons{
+    padding-bottom: 50px;
+}
+.pay{
+    padding-bottom:100px ;
+    font-size: 19px;
+}
+.pay h2{
+    position: relative;
+    text-align: center;
+    top: 35px;
+    color: wheat;
+}
+.pay form{
+    margin-top: 50px;
+    position: relative;
+    color: wheat;
+    margin-left: 50px;
+}
+.pay form h2{
+    position: relative;
+    text-align: center;
+    color: wheat;
+    top: 5px;
+    right: 25px;
+}
+    
+

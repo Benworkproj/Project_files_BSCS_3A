@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <title>Menu Page</title>
+</head>
+<body>
+  <body background="orange.jpg">
+  <header>
+    <ul>
+      <li><img src="" alt=""></li>
+      <li><a href="#" class="active">Menu</a></li>
+      <li><a href="#">Point of Sale</a></li>
+      <li><a href="#">Payroll Form</a></li>
+      <li id="contact"><a href="Home.php">Log Out</a></li>
+    </ul>
+  </header>
+<div class="row">
+  <div class="column left">
+
+    <b><u><white><h3>FOOD BUNDLE CHOICES</h3></white></u></b>
+          <input type="radio" name="donutbundle" value="donut1" id="donut1" class="selector">
+          <label class="selectorLabel" for="donut1">Family Bundle </label>  
+          <br>
+          <input type="radio" name="donutbundle" value="donut2" id="donut2" class="selector">
+          <label class="selectorLabel" for="donut2">Barkada/Couple Bundle </label>
+          <br>
+          <br>
+      <b><u><h3>FAMILY BUNDLE </h3></u></b>
+          <label class="container">
+            <input type="checkbox" name="donutbundle1" id="bundle1" value="bundle1">
+            <label class="checkmark">2 milktea (any choice of flavors)</label>
+          </label>
+          <p>
+            <label class="container">
+              <input type="checkbox" name="donutbundle1" id="bundle2" value="bundle2">
+              <label class="checkmark"> 1 box of premium donuts</label>
+            </label>
+          </p>
+          <p>
+            <label class="container">
+              <input type="checkbox" name="donutbundle1" id="bundle3" value="bundle3">
+              <label class="checkmark">Drinks</label>
+            </label>
+          </p>
+          <br>
+ <b><u><h3>BARKADA/COUPLE BUNDLE</h3></u></b>
+
+          <p>
+            <label class="container">
+              <input type="checkbox" name="donutbundle2" id="bundles1" value="bundles1">
+              <label class="checkmark"> 1 milktea (any choice of flavors)</label>
+            </label>
+          </p>
+          <p>
+            <label class="container">
+              <input type="checkbox" name="donutbundle2" id="bundles2" value="bundles2">
+              <label class="checkmark">1 box of premium donuts</label>
+            </label>
+          </p>
+           <p>
+            <label class="container">
+              <input type="checkbox" name="donutbundle2" id="bundles3" value="bundles3">
+              <label class="checkmark">Drinks</label>
+            </label>
+          </p>
+           
+   
+          <u><b><p>ORDER IMAGE</p></b></u>
+          <div class="box"> 
+
+  </div>
+  <br>
+  <b><u><label>ORDER SUMMARY</label></u></b><br>
+  <br>
+   <textarea class="receiptBox" id="summary" name="summary" rows="7" cols="35" readonly></textarea><br></br>
+
+  </div>
+  <div class="column right">
+
+  <b><u><h3>ORDER DETAILS</h3></u></b>
+  <label for="price">Price</br>
+  <input type="text" id="price" name="price" readonly class="textfield">
+  </label><br></br>
+  <label for="quantity">Quantity<br>
+  <input type="text" id="quantity" name="quantity" class="textfield">
+  </label><br><br>
+  <label for="price">Discount Amount<br>
+  <input type="text" id="discount_amount" name="discount_amount" readonly class="textfield">
+  </label><br><br>
+  <label for="price">Discounted Amount<br>
+  <input type="text" id="discounted_amount"name="discounted_amount"readonly class="textfield">
+  </label><br><br>
+  <label for="price">Total Bills<br>
+  <input type="text" id="total_bills" name="total_bills"readonly class="textfield">
+  </label><br><br>
+  <label for="price">Total Quantity<br>
+  <input type="text" id="total_quantity" name="total_quantity" readonly class="textfield">
+  </label><br><br>
+  <label for="price">Cash Given<br>
+  <input type="text" id="cash_given" name="cash_given" class="textfield">
+  </label><br><br>
+  <label for="price">Change<br>
+  <input type="text" id="change" name="change"readonly class="textfield">
+  </label><br>
+  <br>
+
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+         
+  </div>
+
+  
+  <div class="column center">
+    <div class="gallery">
+        <label class="product" for="order1">
+              <img src="milktea1.jpg"><br>
+            <input type="checkbox" name="order1"  id="order1">
+            <label name="order1label" id="order1label" >Okinawa</label>
+        </label>
+      </div>
+      <div class="gallery">
+        <label class="product" for="order2">
+          <img src="milktea3.jpg"><br>
+          <input type="checkbox" name="order2"  id="order2">
+          <label class="checkmark">Mango</label>
+        </label>
+      </div>
+      <div class="gallery">
+        <label class="product" for="order3">
+            <img src="milktea4.jpg"><br>
+            <input type="checkbox" name="order3"  id="order3">
+            <label class="checkmark">Chocolate</label>
+        </label>
+      </div>
+      <div class="gallery">
+        <label class="product" for="order4">
+            <img src="milktea5.jpg"><br>
+            <input type="checkbox" name="order4"  id="order4">
+            <label class="checkmark">oreo</label> 
+        </label>
+      </div>
+      <div class="gallery">
+        <label class="product" for="order5">
+              <img src="milktea6.jpg"><br>
+            <input type="checkbox" name="order5"  id="order5">
+            <label class="checkmark">Winter M</label>
+        </label>
+      </div>
+      <div class="gallery">
+        <label class="product" for="order6">
+            <img src="milktea7.jpg"><br>
+            <input type="checkbox" name="order6"  id="order6">
+            <label class="checkmark">Strawberry</label>
+          </label>
+      </div>
+        <div class="gallery">
+        <label class="product" for="order7">
+            <img src="milktea8.jpg"><br>
+            <input type="checkbox" name="order7"  id="order7">
+            <label class="checkmark">Taro</label>
+        </label>
+      </div>
+
+        <div class="gallery">
+        <label class="product" for="order8">
+            <img src="milktea9.jpg"><br>
+            <input type="checkbox" name="order8"  id="order8">
+            <label class="checkmark">Red Velvet</label>
+        </label>
+      </div>
+       <div class="gallery">
+        <label class="product" for="order9">
+              <img src="milktea10.jpg"><br>
+            <input type="checkbox" name="order9"  id="order9">
+            <label class="checkmark">Ube</label>
+        </label>
+      </div>
+      <div class="gallery">
+        <label class="product" for="order10">
+              <img src="milktea11.jpg"><br>
+            <input type="checkbox" name="order10"  id="order10">
+            <label class="checkmark">Caramel</label>
+        </label>
+      </div>
+      <br>
+      
+      <center><b><u><h4>DELIGHTS</h4></u></b></center>
+      
+      
+        <div class="gallery">
+        <label class="product" for="order11">
+              <img src="13.jpg"><br>
+            <input type="checkbox" name="order11"  id="order11">
+            <label class="checkmark">Premium donut A</label>
+        </label>
+      </div>
+        <div class="gallery">
+        <label class="product" for="order12">
+            <img src="0.jpg"><br>
+            <input type="checkbox" name="order12"  id="order12">
+            <label class="checkmark">Premium donut B</label>
+        </label>
+      </div>
+              <div class="gallery">
+        <label class="product" for="order13">
+            <img src="2.jpg"><br>
+            <input type="checkbox" name="order13"  id="order13">
+            <label class="checkmark">Premium donut C</label>
+        </label>
+      </div>
+              <div class="gallery">
+        <label class="product" for="order14">
+            <img src="3.jpg"><br>
+            <input type="checkbox" name="order14"  id="order14">
+            <label class="checkmark">Premium donut D</label>
+        </label>
+      </div>
+              <div class="gallery">
+        <label class="product" for="order15">
+            <img src="4.jpg"><br>
+           <input type="checkbox" name="order15"  id="order15">
+            <label class="checkmark">Premium Donut E</label>
+        </label>
+      </div>
+       
+       
+      <center><b><u><h5>BEVERAGES</h5></u></b></center>
+       
+
+              <div class="gallery">
+        <label class="product" for="order16">
+            <img src="softdrinks.jpg"><br>
+            <input type="checkbox" name="order16"  id="order16">
+            <label class="checkmark">Softdrinks</label>
+        </label>
+      </div>
+              <div class="gallery">
+        <label class="product" for="order17">
+            <img src="coffee.jpg"><br>
+            <input type="checkbox" name="order17"  id="order17">
+            <label class="checkmark">Hot Coffee</label>
+        </label>
+      </div>
+                  <div class="gallery">
+        <label class="product" for="order18">
+            <img src="shake.jpg"><br>
+            <input type="checkbox" name="order18"  id="order18">
+            <label class="checkmark">Shake</label>
+        </label>
+      </div>
+              <div class="gallery">
+        <label class="product" for="order19">
+            <img src="juice1.jpg"><br>
+            <input type="checkbox" name="order19"  id="order19">
+            <label class="checkmark">Juices</label>
+        </label>
+      </div>
+              <div class="gallery">
+        <label class="product" for="order20">
+            <img src="coffe.jpg"><br>
+            <input type="checkbox" name="order20"  id="order20">
+            <label class="checkmark">Iced coffee</label>
+        </label>
+      </div>
+
+          <button class="button" id="calculate" name="calculate">Calculate</button>
+          <button class="button" id="changebutton" name="changebutton">Change</button>
+          <button class="button" id="new" name="new">New</button>
+          <button class="button" id="print" name="print">Print</button>
+          <button class="button" id="exit" name="exit">Exit</button>
+      
+
+</div>
+</label>
+</div>
+
+<!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script type="text/javascript">
+
+$(document).ready(function() {
+
+//DECLARATION OF GLOBAL VARIABLES
+
+var price = 0;
+ var quantity = 0; 
+ var	discount_amount = 0;
+ var discounted_amount = 0;
+ var cash_given = 0;
+ var total_bills = 0;
+ var total_quantity = 0;
+
+
+
+// FUNCTIONS FOR THE CHECKBOXES OF ITEMS
+function price_ordersummary(price,summary) {
+  document.getElementById("price").value = price;
+  document.getElementById("summary").value = summary;
+  document.getElementById("quantity").focus();
+}
+function price_ordersummary_empty(price,summary) {
+  document.getElementById("price").value = "";
+  document.getElementById("summary").value = "";
+}
+
+//FUNCTIONS FOR THE RADIO BUTTONS AND CHECKBOXES
+function donut_bundle1(bundles1,bundles2,bundles3,donut2,bundle1,bundle2,
+  bundle3) {
+
+    $("#bundle1").prop( "checked", true );
+    $("#bundle2").prop( "checked", true );
+    $("#bundle3").prop( "checked", true );
+    
+    $("#donut2").prop("checked",false);
+    $("#bundles1").prop( "checked", false );
+    $("#bundles2").prop( "checked", false );
+    $("#bundles3").prop( "checked", false );
+    
+     document.getElementById("price").value = 550.00;
+     document.getElementById("summary").value = "FAMILY BUNDLE";
+     document.getElementById("quantity").focus();
+     
+}
+
+function donut_bundle1_deselect(bundle1,bundle2,bundle3,donut2,bundles1,bundles2,
+  bundles3) {
+    document.getElementById("price").value = "";
+     document.getElementById("summary").value = "";
+}
+
+function donut_bundle2(bundle1,bundle2,bundle3,donut1,bundles1,bundles2,
+  bundles3,bundles4) {
+
+    $("#bundle1").prop( "checked", false );
+     $("#bundle2").prop( "checked", false );
+     $("#bundle3").prop( "checked", false );
+     $("#bundle4").prop( "checked", false);
+
+    $("#donut1").prop("checked",false);
+     $("#bundles1").prop( "checked", true );
+     $("#bundles2").prop( "checked", true );
+     $("#bundles3").prop( "checked", true );
+     $("#bundles4").prop("checked", false);
+
+     document.getElementById("price").value = 450.00;
+     document.getElementById("summary").value = "BARKADA/COUPLE BUNDLE";
+     document.getElementById("quantity").focus();
+     
+}
+
+function donut_bundle2_deselect(bundle1,bundle2,bundle3,donut2,bundles1,bundles2,
+  bundles3,bundles4) {
+    document.getElementById("price").value = "";
+     document.getElementById("summary").value = "";
+}
+
+function calculatebills_button (price,quantity) {
+  price = $("#price").val() - 0;
+   quantity = $("#quantity").val() - 0;
+
+   //FORMULAS FOR DISCOUNT AND DISCOUNTED AMOUNT
+   discount_amount = (price * quantity) * 0.25;
+   discounted_amount = (price * quantity) - discount_amount;
+   document.getElementById("discount_amount").value = discount_amount;
+   document.getElementById("discounted_amount").value = discounted_amount;
+   document.getElementById("cash_given").focus();
+
+}
+
+function change_button (cash_given,discounted_amount,total_bills,total_quantity) {
+  cash_given = $("#cash_given").val() - 0;
+   discounted_amount = $("#discounted_amount").val() - 0;
+   quantity = $("#quantity").val() - 0;
+
+   //FORMULA FOR CHANGE
+   change = cash_given - discounted_amount;
+   document.getElementById("change").value = change;
+   document.getElementById("total_bills").value += discounted_amount;
+   document.getElementById("total_quantity").value += quantity;
+
+}
+
+function new_button (price,quantity,discount_amount,discounted_amount,total_bills,total_quantity,cash_given,
+  change,summary,donut1,donut2,bundle1,bundle2,bundle3,bundle4,bundles1,
+  bundles2,bundles3,bundles4,order1,order2,order3,order4,order5,order6,order7,order8,order9,order10,order11,order12,order13,order14,order15,order16,order17,order18,order19,order20) {
+
+  //CLEAR ALL TEXTBOXES
+   document.getElementById("price").value = "";
+   document.getElementById("quantity").value = "";
+   document.getElementById("discount_amount").value = "";
+   document.getElementById("discounted_amount").value = "";
+   document.getElementById("cash_given").value = "";
+   document.getElementById("change").value = "";
+   document.getElementById("summary").value = "";
+   document.getElementById("total_bills").value = "";
+   document.getElementById("total_quantity").value = "";
+
+
+   //CLEAR ALL RADIO BUTTONS SELECTIONS WITH ITS CHECKBOXES
+   $("#donut1").prop("checked",false);
+   $("#donut2").prop("checked",false);
+   $("#bundle1").prop("checked",false);
+   $("#bundle2").prop("checked",false);
+   $("#bundle3").prop("checked",false);
+
+   $("#bundles1").prop("checked",false);
+   $("#bundles2").prop("checked",false);
+   $("#bundles3").prop("checked",false);
+   
+      
+   //CLEAR ALL CHECKBOXES IN ITEMS
+   $("#order1").prop("checked",false);
+   $("#order2").prop("checked",false);
+   $("#order3").prop("checked",false);
+   $("#order4").prop("checked",false);
+   $("#order5").prop("checked",false);
+   $("#order6").prop("checked",false);
+   $("#order7").prop("checked",false);
+   $("#order8").prop("checked",false);
+   $("#order9").prop("checked",false);
+   $("#order10").prop("checked",false);
+   $("#order11").prop("checked",false);
+   $("#order12").prop("checked",false);
+      $("#order13").prop("checked",false);
+      $("#order14").prop("checked",false);
+      $("#order15").prop("checked",false);
+      $("#order16").prop("checked",false);
+      $("#order17").prop("checked",false);
+      $("#order18").prop("checked",false);
+      $("#order19").prop("checked",false);
+      $("#order20").prop("checked",false);
+       
+
+}
+//ITEMS -- IMAGES
+$("#order1").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(45.00,"Pepperoni pizza");
+    /*document.getElementById("price").value = 650.00;
+    document.getElementById("order_summary").value = "Pepperoni pizza";
+    document.getElementById("quantity").focus();*/
+  } else {
+    price_ordersummary_empty();
+    /*document.getElementById("price").value = "";
+    document.getElementById("ordersummary").value = "";*/
+  }
+});
+
+$("#order2").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(70.00,"Vegetarian Pizza");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+  $("#order3").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(50.00,"Cheese Pizza");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+
+$("#order4").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(50.00,"Hawaiian Pizza");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+
+
+$("#order5").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(60.00,"Meat Lovers Pizza");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+
+$("#order6").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(65.00,"Mushroom Pizza");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+
+$("#order7").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(75.00,"Bacon Pizza");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+
+$("#order8").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(100.00,"Supreme Pizza");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+
+$("#order9").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(110.00,"Seafood Pizza");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+
+$("#order10").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(115.00,"Margherita Pizza");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+
+$("#order11").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(100.00,"Premium Donut A");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+
+$("#order12").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(105.00,"Premium Donut B");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+
+$("#order13").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(120.00,"Premium Donut C");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+  $("#order14").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(100.00,"Premium Donut D");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+  $("#order15").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(125.00,"Premium Donut E");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+  $("#order16").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(35.00,"Softdrinks");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+  $("#order17").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(45.00,"Hot Coffee");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+  $("#order18").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(60.00,"Milktea");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+  $("#order19").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(40.00,"Juices");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+  $("#order20").click(function(e) {
+  if ($(this).prop("checked") == true ) {
+    price_ordersummary(50.00,"Iced coffee");
+  } else {
+    price_ordersummary_empty();
+  }
+});
+$("#donut1").click(function(e){
+   if($(this).prop("checked") == true) {
+    donut_bundle1();
+     /*$("#bundleB").prop("checked",false);
+     $("#BBchckbx1").prop( "checked", false );
+     $("#BBchckbx2").prop( "checked", false );
+     $("#BBchckbx3").prop( "checked", false );
+     $("#BBchckbx4").prop( "checked", false );
+
+     $("#BAchckbx1"()).prop( "checked", true );
+     $("#BAchckbx2").prop( "checked", true );
+     $("#BAchckbx3").prop( "checked", true );
+     $("#BAchckbx4").prop( "checked", true );
+       document.getElementById("price").value = 2990.00;
+       document.getElementById("ordersummary").value = " FAMILY BUNDLE A";
+       document.getElementById("quantity").focus();*/
+
+   } else {
+    donut_bundle1_deselect();
+       /*document.getElementById("price").value = "";
+       document.getElementById("ordersummary").value = "";*/
+  }
+ });
+
+
+ $("#donut2").click(function(e){
+   if($(this).prop("checked") == true){
+    donut_bundle2();
+   } else {
+    donut_bundle2_deselect();
+  }
+ });
+
+/*BUTTONS*/
+
+ $("#calculate").click(function(e){
+    e.preventDefault();
+    calculatebills_button();
+
+ /*VARIABLES 
+
+ var price, 
+   quantity, 
+   discountamount, 
+   discountedamount;*/
+ 
+ // TO CONVERT STRING TO NUMERIC VALUE
+ /*price = $("#price").val() - 0;
+ quantity = $("#quantity").val() - 0;*/
+
+ 
+
+ //FORMULA FOR THE DISCOUNT AMOUNT AND DISCOUNTED AMOUNT
+
+ /*discountamount = (price * quantity) * 0.25;
+ discountedamount = (price * quantity) - discountamount;
+   document.getElementById("discountamount").value = discountamount;
+   document.getElementById("discountedamount").value = discountedamount;
+   document.getElementById("cashgiven").focus();*/
+
+
+
+ });
+
+
+ $("#changebutton").click(function(e){
+   e.preventDefault();
+   change_button();
+
+ });
+
+ $("#new").click(function(e) {
+   e.preventDefault();
+   new_button();
+
+ });
+
+
+});
+
+
+
+  
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,212 @@
+body  
+{  
+    background-image: url(pizzad.jpg);
+
+}  
+.login{  
+        width: 400px;    
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background:#ffa500; 
+        border-radius: 15px ; 
+
+          
+} 
+
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: skyblue;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 10px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 10px;  
+    background: pink;
+    color: black; 
+    cursor: pointer;
+}  
+#log:hover{
+    
+    background: skyblue;
+    color:black;
+}
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: blue;  
+}  
+a:hover
+{
+    color:yellow;
+}
+#home{
+    width: 117px;
+    margin: auto;
+}
+header{
+    height: 100vh;
+}
+.top-button{
+    float:right;
+    list-style: none;
+    margin-top: 30px;
+}
+.top-button li{
+    display: inline-block;
+}
+.top-button li a{
+    border: 1px solid black;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color:skyblue;
+    background: black;
+    cursor: pointer;
+}
+.top-button li a:hover{
+    background: skyblue;
+    color: black;
+}
+.welcome{
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome h1{
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.welcome a{
+    border: 1px solid black;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: skyblue;
+    background: black;
+    cursor: pointer;
+}
+.welcome a:hover{
+    background: skyblue;
+    color: black;
+}
+.registration{
+        width: 382px;    
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 70px;  
+        background: #000;
+        color: #fff;  
+        border-radius: 15px ;  
+}
+h3{
+    text-align: center;  
+    color: #277582;  
+    padding: 0px;
+}
+.registration p{
+    color: skyblue;  
+    font-size: 17px;
+}
+.registration input{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 4px;
+}
+.registration button{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background: pink;
+    color: crimson; 
+    cursor: pointer;
+}
+.registration button:hover{
+    background: skyblue;
+    color:crimson;
+}
+.registration span{
+    text-align: left;
+    color: black;  
+    font-size: 17px;
+
+}
+div.login{
+    background-color: rgba(0,0,0,0.5);
+}
+div.registration{
+    background-color: rgba(0,0,0,0.5);
+}
+.profile-card{
+    width: 400px;
+    margin: auto;
+    background: lightgrey;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+}
+.imagecon{
+    position: relative;
+}
+.info{
+    color: blue;
+    margin: 5px;
+}
+.main-con{
+    padding: 20px;
+}
+.skills{
+    background-color: crimson;
+    border-radius: 16px;
+}
+.progress{
+    padding: 0.1em 16px;
+    border-radius: 16px;
+    text-align: center;
+    color: black;
+    background-color:skyblue;
+}
+.Gender .Male {
+    float: left;
+}
+.Gender .Female {
+    float: left;
+}

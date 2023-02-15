@@ -1,0 +1,142 @@
+<style>
+
+.column {
+  float: left;
+
+  padding: 10px;
+
+}
+.left {
+font-family: "sans-serif";
+
+
+}
+.right1{
+    margin-left: 100px;
+  width: 10px;
+  height: 5px;
+  background:#D4F0F0; 
+}
+
+h4{
+  position: center;
+}
+h3{
+  font-size: 15px;
+  color: white;
+}
+h2{
+  background: #D4F0F0; 
+  color: black;
+}
+.box { /*browse*/
+  background: rgba(0, 0, 0, 0.45); 
+  height: 255px;
+  width: 300px;
+  margin-left: 1100px;
+  margin-top: 0.5px;
+}
+.button1 {
+  background-color:  #8B6508; 
+  width: 15%;
+  border: 2px solid #000000;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 100px;
+  font-size: 12px;
+
+  cursor: pointer;
+}
+.buttonside{
+  margin-left: 100px;
+  width: 10px;
+  height: 5px;
+}
+.button10{
+  background-color:  #8B6508; 
+  border: 3px #000000;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 13px;
+
+  cursor: pointer;
+}
+.button2 {
+  background-color:  #8B6508; 
+  width: 10%;
+  border: 1px  000000;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+    font-size: 12px;
+
+  cursor: pointer;
+}
+.button3 {
+  background-color:  #8B6508; 
+  width: 13%;
+  border: 2px 000000;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+.button4 {
+  background-color:  #8B6508;
+  width: 13%; 
+border: 1px 000000;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+.button5 {
+  background-color:  #8B6508; 
+  border: 2px 000000;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+
+  cursor: pointer;
+}
+.button6 {
+  background-color:  #8B6508; 
+  width: 10%;
+  border: 2px 000000;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+.regular{
+  margin-left: 500px;
+  width: 5px;
+  height: 5px;
+width: 400px;
+border-color: #C0C0C0; 
+border-width: 1px;
+}
+.field{
+width: 400px; 
+border-color: #330066; 
+border-width: 1px;
+margin-left: 50px;
+}
+
+
+
+</style>

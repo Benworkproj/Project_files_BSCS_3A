@@ -1,0 +1,138 @@
+<style>
+
+.column {
+  float: left;
+
+  padding: 10px;
+
+}
+.left {
+font-family: "Century Gothic";
+background: #8FCACA;
+
+}
+.right1{
+    margin-left: 410px;
+  width: 10px;
+  height: 5px;
+  background:#D4F0F0; 
+}
+
+h3{
+  font-size: 15px;
+  color: white;
+}
+h2{
+  background: #D4F0F0; 
+  color: black;
+}
+.box { /*browse*/
+  background: rgba(0, 0, 0, 0.45); 
+  height: 255px;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 0.5px;
+}
+.button1 {
+  background-color:  #2F4F4F; 
+  border: 1px solid black;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+margin-left: 120px;
+  font-size: 13px;
+
+  cursor: pointer;
+}
+.buttonside{
+    margin-left: 100px;
+  width: 10px;
+  height: 5px;
+}
+.button10{
+  background-color:  #2F4F4F; 
+  border: 3px solid #DDA0DD;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 13px;
+
+  cursor: pointer;
+}
+.button2 {
+  background-color:  #2F4F4F; 
+  width: 15%;
+  border: 1px solid black;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+    font-size: 12px;
+
+  cursor: pointer;
+}
+.button3 {
+  background-color:  #2F4F4F; 
+  width: 13%;
+  border: 1px solid black;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+.button4 {
+  background-color:  #2F4F4F;
+  width: 13%; 
+border: 1px solid black;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+.button5 {
+  background-color:  #2F4F4F; 
+  border: 1px solid black;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+
+  cursor: pointer;
+}
+.button6 {
+  background-color:  #2F4F4F; 
+  width: 10%;
+  border: 1px solid black;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+.regular{
+  margin-left: 680px;
+  width: 10px;
+  height: 5px;
+width: 450px;
+border-color: #C0C0C0; 
+border-width: 1px;
+}
+.field{
+width: 400px; 
+border-color: #C0C0C0; 
+border-width: 1px;
+margin-left: 150px;
+}
+
+
+
+</style>

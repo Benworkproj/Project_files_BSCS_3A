@@ -1,0 +1,190 @@
+<style>
+
+.column {
+  float: left;
+
+  padding: 10px;
+
+}
+.left {
+font-family: "sans-serif";
+
+
+}
+.right1{
+    margin-left: 20px;
+  width: 10px;
+  height: 5px;
+  background:#D4F0F0; 
+  border-radius: 10px
+}
+
+h4{
+  position: center;
+}
+h3{
+  font-size: 15px;
+  color: white;
+}
+h2{
+  background: #D4F0F0; 
+  color: black;
+}
+.box { /*browse*/
+  background: rgba(0, 0, 0, 0.45); 
+  height: 220px;
+  width: 150px;
+  margin-left: 760px;
+  margin-top: 0.5px;
+}
+.button1 {
+  background-color:  #8B6508; 
+  width: 15%;
+  border: 2px solid #000000;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+margin-left: 20px;
+  font-size: 10px;
+
+  cursor: pointer;
+}
+.buttonside{
+    margin-left: 90px;
+  width: 8px;
+  height: 5px;
+}
+.button10{
+  background-color:  #8B6508; 
+  border: 3px #000000;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 12px;
+
+  cursor: pointer;
+}
+.button2 {
+  background-color:  #8B6508; 
+  width: 10%;
+  border: 1px  000000;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+    font-size: 10px;
+
+  cursor: pointer;
+}
+.button3 {
+  background-color:  #8B6508; 
+  width: 10%;
+  border: 2px 000000;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  cursor: pointer;
+}
+.button4 {
+  background-color:  #8B6508;
+  width: 10%; 
+border: 1px 000000;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  cursor: pointer;
+}
+.button5 {
+  background-color:  #8B6508; 
+  border: 2px 000000;
+  color: white;
+  padding: 9px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+
+  cursor: pointer;
+}
+.button6 {
+  background-color:  #8B6508;
+  width: 8%;
+  border: 2px 000000;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+
+  cursor: pointer;
+}
+.regular{
+  margin-left: 550px;
+  width: 5px;
+  height: 5px;
+width: 400px;
+border-color: #330066; 
+border-width: 1px;
+}
+.field{
+width: 400px; 
+border-color: #330066; 
+border-width: 1px;
+margin-left: 50px;
+}
+header
+{
+    background-color: #fff;
+    padding: 8px;
+    box-shadow: 0 0 3px #000;
+}
+header li
+{
+  display: inline;
+  padding-left: 25px;
+}
+header li a 
+{
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  transition: .3s ease;
+}
+header li a:hover
+{
+  color:royalblue;
+}
+header ul #contact a
+{
+  color: #fff;
+  background-color: orange;
+  border-radius: 30px;
+  float: right;
+  position: relative;
+  top: -10px; 
+}
+header ul #contact a:hover
+{
+  background-color: goldenrod;
+}
+
+header li img
+{
+  width: 180px;
+  float: left;
+  margin-top: -20px;
+}
+.active
+{
+  color: royalblue;
+}
+
+
+
+</style>
